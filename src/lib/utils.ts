@@ -10,6 +10,12 @@ export function truncateText(text: string, length: number): string {
   return text.slice(0, length) + '...';
 }
 
+export function rephraseText(content: string, tone: string): string {
+  // Basic implementation that returns the original content
+  // This can be enhanced later with actual rephrasing logic
+  return content;
+}
+
 export function generateAIResponse(query: string): string {
   // Enhanced AI responses based on different query types
   const responses: { [key: string]: string } = {
